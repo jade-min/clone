@@ -1,0 +1,154 @@
+header { width: 100%; height: 100px; }
+header > img { position:relative; top: 25px; left: 160px; }
+
+#company > li {
+    position: relative;
+    left: 300px;
+        top: 15px;
+        list-style: none;
+        font-size: larger;
+        float: left;
+        margin-left: 30px;
+    }
+
+#user > li {
+        position: relative;
+        left: -190px;
+        top: -40px;
+        list-style: none;
+        font-size: small;
+        float: left;
+        margin-left: 25px;
+    }
+
+#search {
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
+
+#section_bg {
+    width: 100%;
+    height: 600px;
+    background: url(images/bg_visual_1.jpg) no-repeat center;
+}
+
+#section_bg > div > p {
+    font-weight: bold;
+    font-size: 3em;
+    position: relative; 
+    left: 185px;
+}
+
+#section_left_menu {
+    position: absolute;
+    top : 600px;
+    left: 150px;
+    width: 75%;
+    height: 85px;
+    background: rgba(0,0,0,0.5);
+}
+
+#section_left_menu > ul > li {
+    position: relative;
+    top: 30px;
+    left: -60px;
+    color: whitesmoke;
+    list-style: none;
+    font-size: large;
+    float: left;
+    margin-left: 55px;
+}
+
+#section_right_menu {
+    position: absolute;
+    top: 21px;
+    left: 600px;
+}
+
+#first_article {
+    float: left;
+    width: 29%;
+    height: 250px;
+    background-color:white;
+}
+
+#first_article > p {
+    position: relative;
+    font-size: 0.9em;
+    color: rgb(126, 118, 118) 
+    }
+
+#second_article {
+    float: left;
+    width: 42%;
+    height: 250px;
+    background-color:rgb(23, 153, 204);
+}
+
+#second_article > p {
+    position: relative;
+    left: 25px;
+    color: white;
+}
+
+#second_article > a > img {
+    position: relative;
+    left: 300px;
+    top: -150px;
+}
+
+#third_article {
+    float: left;
+    width: 29%;
+    height: 250px;
+    background-color:rgb(41, 122, 177);
+}
+
+#third_article > p {
+    position: relative;
+    left: 25px;
+    color: white;
+}
+
+#fourth_article {
+    float: left;
+    width: 29%;
+    height: 250px;
+    background-color:rgb(218, 218, 218);
+}
+
+#fourth_article > p {
+    position: relative;
+    left: 140px;
+}
+
+#fifth_article {
+    float: left;
+    width: 42%;
+    height: 250px;
+    background-color:rgb(226, 226, 226);
+}
+
+#fifth_article > p {
+    position: relative;
+    left: 25px;
+}
+
+#fifth_article > a > img {
+    position: relative;
+    left: 300px;
+    top: -100px;
+}
+
+#sixth_article {
+    float: left;
+    width: 29%;
+    height: 250px;
+    background-color:rgb(226,226,226);
+}
+
+#sixth_article > p {
+    position: relative;
+    left: 25px;
+}
